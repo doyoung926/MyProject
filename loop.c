@@ -7,11 +7,17 @@ int main(void)
     printf("Hello World %d\n", i);
   }*/
 
-  int i = 1;
+  /*int i = 1;
   while (i<=10)
   {
     printf("Hello World %d\n", i++);
-  }
+  }*/
+
+  int i = 1;
+  do
+  {
+    printf("Hello World %d\n", i++);
+  } while (i<=10);
 
   return 0;
 }

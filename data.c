@@ -16,4 +16,8 @@ int main(void)
   int age = 14;
   float weight;
   char letter_grade = 'a';
+
+  printf("Hello World");
+
+  return 0;
 }
